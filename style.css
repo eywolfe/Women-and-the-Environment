@@ -4,6 +4,7 @@ body{
     color: #2f2f2f;
     background-color: #f9f7f1;
 }
+
 header{
     font-family: 'Playfair Display', serif;
     font-weight: 900;
@@ -14,15 +15,15 @@ header{
     margin-bottom: 20px;
 
 }
+
 p{
     margin-top: 0;
     margin-bottom: 20px;
 }
+
 .head{
     text-align: center;
     position: relative;
-
-
 }
 
 .headerobjectswrapper{
@@ -51,11 +52,9 @@ p{
     word-spacing: -.31em;
     display: inline-block;
     margin: 30px 2% 0 2%;
-
-
 }
-.collumns{
 
+.collumns{
 }
 
 .collumn{
@@ -68,24 +67,24 @@ p{
     margin-bottom: 50px;
     transition: all .7s;
 }
+
 .collumn + .collumn { 
   border-left: 1px solid #2f2f2f;
 }
+
 .collumn .headline{
     text-align: center;
     line-height: normal;
     font-family: 'Playfair Display', serif;
     display: block;
     margin: 0 auto;
-
-
 }
+
 .collumn .headline.hl1{
     font-weight: 700;
     font-size: 30px;
     text-transform: uppercase;
     padding: 10px 0 10px 0;
-
 }
 
 .collumn .headline.hl2{
@@ -104,6 +103,7 @@ p{
     display: block;
     margin: 0 auto;
 }
+
 .collumn .headline.hl2:after{
     border-bottom: 1px solid #2f2f2f;
     content: '';
@@ -111,7 +111,6 @@ p{
     height: 13px;
     display: block;
     margin: 0 auto;
-
 }
 
 .collumn .headline.hl3{
@@ -127,6 +126,7 @@ p{
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
+
 .collumn .headline.hl4:before{
     border-top: 1px solid #2f2f2f;
     content: '';
@@ -135,6 +135,7 @@ p{
     display: block;
     margin: 0 auto;
 }
+
 .collumn .headline.hl4:after{
     border-bottom: 1px solid #2f2f2f;
     content: '';
@@ -142,23 +143,24 @@ p{
     height: 10px;
     display: block;
     margin: 0 auto;
-
 }
 
 .collumn .headline.hl5{
     font-weight: 400;
-    font-size: 42px;
+    font-size: 35px;
     text-transform: uppercase;
     font-style: italic;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
+
 .collumn .headline.hl6{
     font-weight: 400;
     font-size: 18px;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
+
 .collumn .headline.hl6:before{
     border-top: 1px solid #2f2f2f;
     content: '';
@@ -167,6 +169,7 @@ p{
     display: block;
     margin: 0 auto;
 }
+
 .collumn .headline.hl6:after{
     border-bottom: 1px solid #2f2f2f;
     content: '';
@@ -189,18 +192,21 @@ p{
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
+
 .collumn .headline.hl9{
     font-weight: 700;
     font-size: 12px;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
+
 .collumn .headline.hl10{
     font-weight: 700;
     font-size: 12px;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
+
 .collumn .citation1{
     font-family: 'Playfair Display', serif;
     font-size: 36px;
@@ -211,8 +217,8 @@ p{
     display: block;
     margin: 40px 0 40px 0;
     font-feature-settings: "liga", "dlig";
-
 }
+
 .collumn .citation1:before{
     border-top: 1px solid #2f2f2f;
     content: '';
@@ -221,6 +227,7 @@ p{
     display: block;
     margin: 0 auto;
 }
+
 .collumn .citation1:after{
     border-bottom: 1px solid #2f2f2f;
     content: '';
@@ -240,8 +247,8 @@ p{
     display: block;
     margin: 40px 0 40px 0;
     font-feature-settings: "liga", "dlig";
-
 }
+
 .collumn .citation2:before{
     border-top: 1px solid #2f2f2f;
     content: '';
@@ -250,6 +257,7 @@ p{
     display: block;
     margin: 0 auto;
 }
+
 .collumn .citation2:after{
     border-bottom: 1px solid #2f2f2f;
     content: '';
@@ -258,19 +266,23 @@ p{
     display: block;
     margin: 0 auto;
 }
+
 .collumn .figure {
 	  margin: 0 0 20px;
 }
+
 .collumn .figcaption{
 	font-style: italic;
 	font-size: 12px;
 }
+
 .collumn .subtitle{
     font-weight: 400;
     font-size: 16px;
     padding: 2px 0 2px 0;
     font-weight: bold;
 }
+
 .media {
     -webkit-filter: sepia(80%) contrast(1) opacity(0.8);
     filter: sepia(80%) grayscale(1) contrast(1) opacity(0.8);
