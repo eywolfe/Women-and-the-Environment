@@ -13,7 +13,6 @@ header{
     display: inline-block;
     line-height: 72px;
     margin-bottom: 20px;
-
 }
 
 p{
@@ -120,6 +119,7 @@ p{
     box-sizing: border-box;
     padding: 10px 0 10px 0;
 }
+
 .collumn .headline.hl4{
     font-weight: 700;
     font-size: 12px;
@@ -211,60 +211,22 @@ p{
     font-family: 'Playfair Display', serif;
     font-size: 36px;
     line-height: 44px;
-    /*font-style: italic;*/
     text-align: center;
     font-weight: 400;
     display: block;
-    margin: 40px 0 40px 0;
+    margin: 20px 0 20px 0;
     font-feature-settings: "liga", "dlig";
-}
-
-.collumn .citation1:before{
-    border-top: 1px solid #2f2f2f;
-    content: '';
-    width: 100px;
-    height: 16px;
-    display: block;
-    margin: 0 auto;
-}
-
-.collumn .citation1:after{
-    border-bottom: 1px solid #2f2f2f;
-    content: '';
-    width: 100px;
-    height: 16px;
-    display: block;
-    margin: 0 auto;
 }
 
 .collumn .citation2{
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     line-height: 44px;
-    /*font-style: italic;*/
     text-align: center;
     font-weight: 400;
     display: block;
-    margin: 40px 0 40px 0;
+    margin: 20px 0 20px 0;
     font-feature-settings: "liga", "dlig";
-}
-
-.collumn .citation2:before{
-    border-top: 1px solid #2f2f2f;
-    content: '';
-    width: 100px;
-    height: 16px;
-    display: block;
-    margin: 0 auto;
-}
-
-.collumn .citation2:after{
-    border-bottom: 1px solid #2f2f2f;
-    content: '';
-    width: 100px;
-    height: 16px;
-    display: block;
-    margin: 0 auto;
 }
 
 .collumn .figure {
