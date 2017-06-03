@@ -12,9 +12,17 @@ header{
     text-transform: uppercase;
     display: inline-block;
     line-height: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     float: right;
-    margin-right: 75px
+    margin-right: 100px
+}
+
+.header2{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    float: right;
+    margin-right: 100px;
+    text-transform: none;
 }
 
 p{
